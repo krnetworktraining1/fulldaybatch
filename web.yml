@@ -6,3 +6,8 @@
             content: "Hello GIthub"
             dest: /tmp/abc.txt
 
+
+     - yum:
+            name: ftp
+            state: installed
+
