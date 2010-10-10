@@ -1,0 +1,8 @@
+- name: TOwer with github
+  hosts: all
+  tasks:
+     - name: create file 
+       copy:
+            content: "Hello GIthub"
+            dest: /tmp/abc.txt
+
